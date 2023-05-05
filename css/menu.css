@@ -1,0 +1,127 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+    transition: all ease 0.6s;
+    background: #f1862d
+}
+
+header .logo-menu{
+    display: flex;
+}
+
+
+
+header .logo-menu .menu{
+    display: none;
+    border-radius: 50%;
+}
+
+header .menu:hover{
+    background: #e5e5e5;
+    border-radius: 50%; 
+    transition: all ease 0.6s;
+}
+
+
+
+
+header.abajo{
+    background: #fff;
+    transition: all ease 1s;
+    box-shadow: 0 1px 35px rgba(0, 0, 0, 0.4);
+}
+
+header .logo{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.5em;
+    letter-spacing: 5px;
+    transition: all ease 0.7s;
+    padding: 0;
+    
+}
+
+header #buscador{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+header #buscador input{
+    width: 500px;
+    margin: auto;
+    border-radius: 15px;
+    border: 0;
+    height: auto;
+    padding: 10px 15px ;
+}
+
+#buscador button{
+    width: 85px;
+    height: 35px;
+    cursor: pointer;
+    margin: 0 20px;
+    background: #fff;
+    border: 0;
+    border-radius: 15px;
+}
+
+
+
+
+header .nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .nav ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header .nav ul li a{
+    text-decoration: none;
+    padding: 6px 5px;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: 700;
+    transition: all ease 0.6s;
+}
+
+header.abajo .nav ul li a{
+    color: #000;
+    transition: all ease 0.6s;
+}
+
+header .nav ul li a.sesion{
+    background: #fff;
+    color: #000;
+    font-weight: 700;
+    transition: all ease 0.6s;
+    padding: 5px 15px;
+}
+
+header .nav ul li a:hover,
+header .nav ul li a.sesion{
+    background: #fff;
+    color: #000;
+    font-weight: 700;
+    transition: all ease 0.6s;
+}
+
+header.abajo .nav ul li a:hover,
+header.abajo .nav ul li a.home{
+    background: #0f44a7;
+    color: #fff;
+    transition: all ease 0.6s;
+}
